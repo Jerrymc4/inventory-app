@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 50%;
+}
+
+::-webkit-scrollbar-button {
+  display: "hidden";
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: "#417cb3";
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  background: #460d4f;
+}
